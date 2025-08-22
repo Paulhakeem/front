@@ -4,7 +4,7 @@
   >
     <div class="pt-6 lg:pt-0">
       <p class="text-sm lg:text-lg font-medium uppercase pb-2">
-        printing services
+        printing & branding services
       </p>
       <h1 class="font-bold text-gray-800 lg:text-6xl text-4xl">
         The leader in <br />quality custom
