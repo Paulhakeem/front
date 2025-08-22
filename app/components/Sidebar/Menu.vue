@@ -20,7 +20,6 @@
     <!-- Right side (placeholder for profile/login/etc) -->
     <div class="flex justify-end items-center">
       <div>
-        <lable name="search" class="sr-only">Search</lable>
         <input
           type="text"
           placeholder="Search for product"

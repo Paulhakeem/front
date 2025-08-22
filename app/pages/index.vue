@@ -1,9 +1,11 @@
 <template>
   <div>
     <header>
-      <Header/>
+      <Header />
     </header>
-    <main></main>
+    <main>
+      <Services />
+    </main>
     <footer>
       <div>
         <!-- Footer content goes here -->
