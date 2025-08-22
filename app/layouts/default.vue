@@ -5,7 +5,7 @@
     <div class="sticky top-0">
       <div class="bg-[#d8f3f4] flex justify-center items-center p-2">
         <h1 class="text-sm font-semibold text-gray-800">
-          Welcome to Our Printing Website
+          Welcome to Our Printing & Branding Website
         </h1>
       </div>
       <Sidebar />
@@ -13,5 +13,6 @@
     <div class="w-full">
       <slot />
     </div>
+    <Footer />
   </main>
 </template>
