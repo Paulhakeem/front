@@ -1,8 +1,59 @@
 <template>
-  <div>
-    <SidebarMenu />
-  </div>
+  <main class="bg-[#f6f7fb] sticky top-0 z-50">
+    <div class="flex p-4 lg:hidden">
+      <div class="flex justify-between items-center w-full">
+        <Icon
+          class="cursor-pointer left-2 top-2"
+          size="30"
+          name="material-symbols:menu"
+          @click="toggleMenu"
+        />
+        <Icon name="ph:dev-to-logo-fill" class="text-gray-700 text-6xl" />
+      </div>
+      <div
+        v-if="menu"
+        class="fixed w-2/3 h-full bg-white shadow-lg top-0 left-0 z-40 p-4 mt-4"
+      >
+        <div class="flex justify-between items-center mb-8">
+          <Icon
+            class="cursor-pointer"
+            size="30"
+            name="material-symbols:close"
+            @click="toggleMenu"
+          />
+        </div>
+        <nav>
+          <ul class="space-y-6">
+            <li v-for="(item, index) in sideMenu" :key="index">
+              <a
+                :href="item.path"
+                class="text-gray-800 hover:border-b hover:border-b-[#d8f3f4] text-sm font-medium tracking-wide uppercase"
+                @click="toggleMenu"
+              >
+                {{ item.name }}
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="hidden lg:block">
+      <SidebarMenu />
+    </div>
+  </main>
 </template>
 
 <script setup>
+const sideMenu = ref([
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Services", path: "/services" },
+  { name: "Contact", path: "/contact" },
+]);
+
+const menu = ref(false);
+
+const toggleMenu = () => {
+  menu.value = !menu.value;
+};
 </script>
