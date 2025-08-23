@@ -1,16 +1,16 @@
 <template>
-  <div class="pt-14">
+  <div class="bg-[#f6f7fb]">
     <!-- Hero -->
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-[85rem] pt-14 mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Grid -->
       <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         <div>
-          <h1 class="block text-4xl font-bold text-gray-800">
+          <h1 class="block text-2xl font-bold text-gray-800 lg:text-4xl">
             Reason to get
             <span class="text-[#5cc6d0]">printing & branding</span> starting
             with us
           </h1>
-          <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400">
+          <p class="mt-3 text-md text-gray-800 dark:text-neutral-400 lg:text-lg">
             Our dedicated staff makes it easy for you to create a unique design
             that will impress your clients and make you stand out from the
             crowd. We use the latest technology and highest quality materials to
