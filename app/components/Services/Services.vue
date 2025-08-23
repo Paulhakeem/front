@@ -24,7 +24,7 @@ const services = [
   { title: "Business Cards", src: "/images/1.png" },
   { title: "Marketing Materials", src: "/images/2.png" },
   { title: "Signs & Posters", src: "/images/3.png" },
-  { title: "Clothing & Bags", src: "/images/4.png" },
+  { title: "T-shirts & Bags Printing", src: "/images/4.png" },
   { title: "Design Services", src: "/images/5.png" },
   { title: "Invitation & Stationery", src: "/images/6.png" },
   { title: "Labels & Stickers", src: "/images/7.png" },
