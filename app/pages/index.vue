@@ -5,13 +5,11 @@
     </header>
     <main>
       <Services />
-     <Reasons/>
+      <section>
+        <Reasons />
+        <About />
+      </section>
     </main>
-    <footer>
-      <div>
-        <!-- Footer content goes here -->
-      </div>
-    </footer>
   </div>
 </template>
 

@@ -5,13 +5,16 @@
       <!-- Grid -->
       <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         <div>
-          <h1 class="block text-5xl font-bold text-gray-800">
-            Reason to get <span class="text-[#5cc6d0]">printing</span> starting
+          <h1 class="block text-4xl font-bold text-gray-800">
+            Reason to get
+            <span class="text-[#5cc6d0]">printing & branding</span> starting
             with us
           </h1>
           <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400">
             Our dedicated staff makes it easy for you to create a unique design
-            that will impress your clients and make you stand out from the crowd
+            that will impress your clients and make you stand out from the
+            crowd. We use the latest technology and highest quality materials to
+            ensure that your prints look amazing and last a long time.
           </p>
 
           <!-- Review -->
@@ -19,11 +22,26 @@
             <!-- Review -->
             <div class="py-5">
               <div class="flex gap-x-1">
-                <Icon name="tabler:star-filled" class="size-10 text-[#5cc6d0]" />
-                <Icon name="tabler:star-filled" class="size-10 text-[#5cc6d0]" />
-                <Icon name="tabler:star-filled" class="size-10 text-[#5cc6d0]" />
-                <Icon name="tabler:star-filled" class="size-10 text-[#5cc6d0]" />
-                <Icon name="tabler:star-filled" class="size-10 text-[#5cc6d0]" />
+                <Icon
+                  name="tabler:star-filled"
+                  class="size-10 text-[#5cc6d0]"
+                />
+                <Icon
+                  name="tabler:star-filled"
+                  class="size-10 text-[#5cc6d0]"
+                />
+                <Icon
+                  name="tabler:star-filled"
+                  class="size-10 text-[#5cc6d0]"
+                />
+                <Icon
+                  name="tabler:star-filled"
+                  class="size-10 text-[#5cc6d0]"
+                />
+                <Icon
+                  name="tabler:star-filled"
+                  class="size-10 text-[#5cc6d0]"
+                />
               </div>
 
               <p class="mt-3 text-sm text-gray-800 dark:text-neutral-200">
@@ -77,7 +95,7 @@
         <div class="ms-4">
           <img
             class="w-full rounded-md"
-            src="/images/machine.jpg"
+            src="/images/printing.jpg"
             alt="printing machine"
           />
         </div>
@@ -90,4 +108,3 @@
 </template>
 
 <script setup></script>
-
