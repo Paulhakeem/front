@@ -16,13 +16,13 @@
       </p>
 
       <button
-        class="bg-white text-gray-800 font-semibold py-4 px-6 rounded-full mt-10 w-44 p-4 cursor-pointer hover:bg-gray-100 transition duration-300"
+        class="bg-white text-gray-800 font-semibold py-4 px-6 rounded-full mt-10 w-44 p-4 cursor-pointer hover:bg-[#5cc6d0] transition duration-300"
       >
         Shop Now
       </button>
     </div>
     <div
-      class="bg-[#f2cf57] flex justify-center items-center p-2 mt-10 lg:mt-0 rounded-full size-80 lg:size-90"
+      class="bg-[#5cc6d0] flex justify-center items-center p-2 mt-10 lg:mt-0 rounded-full size-80 lg:size-90"
     ></div>
   </div>
 </template>

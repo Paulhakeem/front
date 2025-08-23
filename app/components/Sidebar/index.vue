@@ -1,18 +1,18 @@
 <template>
-  <main class="bg-[#f6f7fb] sticky top-0 z-50">
+  <main class="bg-gray-800 sticky top-0 z-50">
     <div class="flex p-4 lg:hidden">
       <div class="flex justify-between items-center w-full">
         <Icon
-          class="cursor-pointer left-2 top-2"
+          class="cursor-pointer left-2 top-2 text-gray-200"
           size="30"
           name="material-symbols:menu"
           @click="toggleMenu"
         />
-        <Icon name="ph:dev-to-logo-fill" class="text-gray-700 text-6xl" />
+        <img src="/images/logo.png" alt="logo" class="h-10" />
       </div>
       <div
         v-if="menu"
-        class="fixed w-2/3 h-full bg-white shadow-lg top-0 left-0 z-40 p-4 mt-4"
+        class="fixed w-2/3 h-screen bg-white shadow-lg top-0 left-0 z-40 p-4 mt-4"
       >
         <div class="flex justify-between items-center mb-8">
           <Icon
