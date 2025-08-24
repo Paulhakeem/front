@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#e5e5e5] flex flex-wrap gap-10 justify-center lg:justify-evenly items-center lg:p-4 lg:h-[80vh] p-10"
+    class="z-0 bg-[#e5e5e5] flex flex-wrap gap-10 justify-center lg:justify-evenly items-center lg:p-4 lg:h-[80vh] p-10"
   >
     <div class="pt-6 lg:pt-0">
       <p class="text-sm lg:text-lg font-medium uppercase pb-2">
@@ -23,7 +23,7 @@
     </div>
 
     <main>
-      <div class="relative w-64 lg:w-96 overflow-hidden">
+      <div class="relative z-0 w-64 lg:w-96 overflow-hidden">
         <!-- Images wrapper -->
         <div
           class="flex transition-transform duration-700 ease-in-out"
@@ -56,7 +56,7 @@
 </template>
 
 <script setup>
-const images = ["/images/t-shirt.png", "/images/women.png", "/images/cap.png"];
+const images = ["/images/t-shirt.png", "/images/women.png", "/images/cap.png", "/images/paper.png"];
 
 const currentIndex = ref(0);
 let interval;

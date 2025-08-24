@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-gray-800 sticky top-0 z-50">
+  <main class="bg-gray-800">
     <div class="flex p-4 lg:hidden">
       <div class="flex justify-between items-center w-full">
         <Icon
