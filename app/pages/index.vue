@@ -9,6 +9,7 @@
         <Reasons />
         <About />
       </section>
+      <Contact />
     </main>
   </div>
 </template>
