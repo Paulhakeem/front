@@ -10,9 +10,8 @@
         The leader in <br />quality custom
       </h1>
 
-      <p class="text-md font-medium text-gray-800 pt-6">
-        Turn your ideas into premium products that <br />
-        leave a lasting impression.
+      <p class="text-md font-regular text-gray-800 pt-6 w-96 lg:w-[30em]">
+       Greetings from Skywork, the leading source for branding and printing services in Mombasa.  Whether you need digital printing, corporate branding, or bespoke printing, we specialize in a broad range of tailored printing and branding solutions.
       </p>
 
       <button
