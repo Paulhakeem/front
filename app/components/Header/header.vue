@@ -2,7 +2,7 @@
   <div
     class="bg-[#e5e5e5] flex flex-wrap gap-10 justify-center lg:justify-evenly items-center lg:p-4 lg:h-[80vh] p-10"
   >
-    <div class="pt-6 lg:pt-0 w-96 sm:w-52 md:w-64 lg:w-[30em] ">
+    <div class="pt-6 lg:pt-0 w-96 lg:w-[30em] ">
       <p class="text-sm lg:text-lg font-medium uppercase pb-2">
         printing & branding services
       </p>
