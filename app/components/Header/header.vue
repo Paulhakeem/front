@@ -21,10 +21,51 @@
         Shop Now
       </button>
     </div>
-    <div
-      class="bg-[#5cc6d0] flex justify-center items-center p-2 mt-10 lg:mt-0 rounded-full size-80 lg:size-90"
-    ></div>
+
+    <div class="w-full max-w-sm overflow-hidden">
+      <!-- Images wrapper -->
+      <div
+        class="flex transition-transform duration-700 ease-in-out"
+        :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
+      >
+        <div
+          v-for="(image, index) in images"
+          :key="index"
+          class="w-96 flex-shrink-0"
+        >
+          <img :src="image" class="w-80 object-cover" />
+        </div>
+      </div>
+
+      <!-- Navigation dots -->
+      <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+        <button
+          v-for="(image, index) in images"
+          :key="index"
+          @click="currentIndex = index"
+          :class="[
+            'w-3 h-3 rounded-full',
+            currentIndex === index ? 'bg-white' : 'bg-gray-400',
+          ]"
+        ></button>
+      </div>
+    </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const images = ["/images/t-shirt.png", "/images/women.png", "/images/cap.png"];
+
+const currentIndex = ref(0);
+let interval;
+
+onMounted(() => {
+  interval = setInterval(() => {
+    currentIndex.value = (currentIndex.value + 1) % images.length;
+  }, 3000); // change slide every 3s
+});
+
+onUnmounted(() => {
+  clearInterval(interval);
+});
+</script>
