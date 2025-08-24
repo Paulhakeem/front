@@ -18,21 +18,21 @@
           <p class="flex items-center">
             <Icon
               name="mingcute:whatsapp-fill"
-              class="inline text-2xl mr-1 text-[#5cc6d0]"
+              class="text-2xl mr-1 text-[#5cc6d0]"
             />
             <a href="tel:+254719283858" class="text-gray-800">+254 719 283 858</a>
           </p>
           <p class="flex items-center">
             <Icon
               name="ic:round-email"
-              class="inline text-2xl mr-1 text-[#5cc6d0]"
+              class="text-2xl mr-1 text-[#5cc6d0]"
             />
             <a href="mailto:skywork021@gmail.com" class="text-gray-800">skywork021@gmail.com </a>
           </p>
           <p class="flex items-center">
             <Icon
               name="ic:round-location-on"
-              class="inline text-2xl mr-1 text-[#5cc6d0]"
+              class="text-2xl mr-1 text-[#5cc6d0]"
             />
             <span class="text-gray-800"
               >123 Printing St, Print City, PC 12345</span
