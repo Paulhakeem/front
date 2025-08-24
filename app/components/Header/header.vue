@@ -22,34 +22,36 @@
       </button>
     </div>
 
-    <div class="w-full max-w-sm overflow-hidden">
-      <!-- Images wrapper -->
-      <div
-        class="flex transition-transform duration-700 ease-in-out"
-        :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
-      >
+    <main>
+      <div class="relative w-64 lg:w-96 overflow-hidden">
+        <!-- Images wrapper -->
         <div
-          v-for="(image, index) in images"
-          :key="index"
-          class="w-96 flex-shrink-0"
+          class="flex transition-transform duration-700 ease-in-out"
+          :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
         >
-          <img :src="image" class="w-80 object-cover" />
+          <div
+            v-for="(image, index) in images"
+            :key="index"
+            class="w-full flex-shrink-0 flex justify-center items-center"
+          >
+            <img :src="image" class="w-64 lg:w-96 sm:h-80 md:h-68 lg:h-[400px] object-cover" />
+          </div>
+        </div>
+
+        <!-- Navigation dots -->
+        <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+          <button
+            v-for="(image, index) in images"
+            :key="index"
+            @click="currentIndex = index"
+            :class="[
+              'w-3 h-3 rounded-full',
+              currentIndex === index ? 'bg-white' : 'bg-gray-400',
+            ]"
+          ></button>
         </div>
       </div>
-
-      <!-- Navigation dots -->
-      <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
-        <button
-          v-for="(image, index) in images"
-          :key="index"
-          @click="currentIndex = index"
-          :class="[
-            'w-3 h-3 rounded-full',
-            currentIndex === index ? 'bg-white' : 'bg-gray-400',
-          ]"
-        ></button>
-      </div>
-    </div>
+    </main>
   </div>
 </template>
 
