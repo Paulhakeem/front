@@ -33,8 +33,9 @@
 <script setup>
 const menu = ref([
   { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-  { name: "Services", path: "/services" },
-  { name: "Contact", path: "/contact" },
+  { name: "About", path: "/" },
+  { name: "Services", path: "/" },
+  { name: "Videos", path: "/" },
+  { name: "Contact", path: "/" },
 ]);
 </script>

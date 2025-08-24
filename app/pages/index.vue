@@ -9,6 +9,7 @@
         <Reasons />
         <About />
       </section>
+      <Whatsapp />
       <Contact />
     </main>
   </div>

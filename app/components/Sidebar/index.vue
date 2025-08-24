@@ -48,6 +48,7 @@ const sideMenu = ref([
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Services", path: "/services" },
+  { name: "Videos", path: "/" },
   { name: "Contact", path: "/contact" },
 ]);
 
