@@ -1,8 +1,8 @@
 <template>
   <section
-    class="bg-[#f6f7fb] max-w-[85rem] pt-14 mx-auto px-4 sm:px-6 lg:px-8"
+    class="bg-[#f6f7fb] max-w-[85rem] pt-14 mx-auto p-4 px-4 sm:px-6 lg:px-8"
   >
-    <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20">
+    <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 lg:pt-15">
       <div class="pb-4">
         <h2 class="text-2xl font-bold text-[#5cc6d0]">Contact Us</h2>
         <p class="mt-3 text-md text-gray-800 lg:text-md">
@@ -14,14 +14,29 @@
           Add your printing design file if you have any so that we can provide
           you with an accurate quote.
         </p>
-        <div class="mt-6 space-y-2 text-gray-800">
-          <p>
-            Phone:
-            <a href="tel:+1234567890" class="text-gray-800">+1 234 567 890</a>
+        <div class="mt-6 space-y-4 text-gray-800">
+          <p class="flex items-center">
+            <Icon
+              name="mingcute:whatsapp-fill"
+              class="inline text-2xl mr-1 text-[#5cc6d0]"
+            />
+            <a href="tel:+254719283858" class="text-gray-800">+254 719 283 858</a>
           </p>
-          <p>
-            Email:
-            <a href="mailto:" class="text-gray-800">Email </a>
+          <p class="flex items-center">
+            <Icon
+              name="ic:round-email"
+              class="inline text-2xl mr-1 text-[#5cc6d0]"
+            />
+            <a href="mailto:skywork021@gmail.com" class="text-gray-800">skywork021@gmail.com </a>
+          </p>
+          <p class="flex items-center">
+            <Icon
+              name="ic:round-location-on"
+              class="inline text-2xl mr-1 text-[#5cc6d0]"
+            />
+            <span class="text-gray-800"
+              >123 Printing St, Print City, PC 12345</span
+            >
           </p>
         </div>
       </div>
