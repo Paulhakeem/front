@@ -20,7 +20,7 @@
       <button
         class="bg-white text-gray-800 font-semibold py-4 px-6 rounded-full mt-10 w-44 p-4 cursor-pointer hover:bg-[#5cc6d0] transition duration-300"
       >
-        Shop Now
+        Contact Us
       </button>
     </div>
 

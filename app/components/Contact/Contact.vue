@@ -1,8 +1,8 @@
 <template>
   <section
-    class="bg-[#f6f7fb] max-w-[85rem] pt-14 mx-auto p-4 px-4 sm:px-6 lg:px-8"
+    class="bg-[#f6f7fb]"
   >
-    <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 lg:pt-15">
+    <div class="grid md:grid-cols-2 gap-4 px-6 pt-15 md:gap-8 xl:gap-20 lg:pt-20">
       <div class="pb-4">
         <h2 class="text-2xl font-bold text-[#5cc6d0]">Contact Us</h2>
         <p class="mt-3 text-md text-gray-800 lg:text-md">

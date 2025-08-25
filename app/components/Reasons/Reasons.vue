@@ -94,10 +94,10 @@
 
         <div class="ms-4">
           <img
-            class="w-full rounded-md"
-            src="/images/printing.jpg"
+            class="w-full rounded-md object-cover"
+            src="/images/machine4.jpeg"
             alt="printing machine"
-          />
+        />
         </div>
         <!-- End Col -->
       </div>
