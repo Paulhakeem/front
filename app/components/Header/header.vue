@@ -2,7 +2,7 @@
   <div
     class="bg-[#e5e5e5] flex flex-wrap gap-10 justify-center lg:justify-evenly items-center lg:p-4 lg:h-[80vh] p-10"
   >
-    <div class="pt-6 lg:pt-0 w-96 lg:w-[30em] ">
+    <div class="pt-6 lg:pt-0 w-96 lg:w-[30em]">
       <p class="text-sm lg:text-lg font-medium uppercase pb-2">
         printing & branding services
       </p>
@@ -11,7 +11,10 @@
       </h1>
 
       <p class="text-md font-regular text-gray-800 pt-6">
-       Greetings from Skywork, the leading source for branding and printing services in Mombasa.  Whether you need digital printing, corporate branding, or bespoke printing, we specialize in a broad range of tailored printing and branding solutions.
+        Greetings from Skywork, the leading source for branding and printing
+        services in Mombasa. Whether you need digital printing, corporate
+        branding, or bespoke printing, we specialize in a broad range of
+        tailored printing and branding solutions.
       </p>
 
       <button
@@ -33,7 +36,10 @@
             :key="index"
             class="w-full flex-shrink-0 flex justify-center items-center"
           >
-            <img :src="image" class="w-64 lg:w-96 sm:h-80 md:h-68 lg:h-[400px] object-cover" />
+            <img
+              :src="image"
+              class="w-64 lg:w-full sm:h-80 md:h-68 lg:h-[400px] object-cover"
+            />
           </div>
         </div>
 
@@ -55,7 +61,13 @@
 </template>
 
 <script setup>
-const images = ["/images/t-shirt.png", "/images/women.png", "/images/cap.png", "/images/paper.png"];
+const images = [
+  "/images/machine1.jpeg",
+  "/images/machine2.jpeg",
+  "/images/machine3.jpeg",
+  "/images/machine4.jpeg",
+  "/images/machine5.jpeg",
+];
 
 const currentIndex = ref(0);
 let interval;
