@@ -23,10 +23,10 @@
 const services = [
   { title: "Business Cards", src: "/images/businesscard.jpg" },
   { title: "Marketing Materials", src: "/images/bronchure.jpg" },
-  { title: "Signs & Posters", src: "/images/3.png" },
+  { title: "Signs & Posters", src: "/images/banners.jpg" },
   { title: "T-shirts & Bags Printing", src: "/images/t-shirt.png" },
-  { title: "Design Services", src: "/images/5.png" },
-  { title: "Invitation & Stationery", src: "/images/6.png" },
+  { title: "Large paper Printing", src: "/images/large.jpg" },
+  { title: "Invitation & Stationery", src: "/images/invitation.jpg" },
   { title: "Labels & Stickers", src: "/images/7.png" },
 ];
 </script>
