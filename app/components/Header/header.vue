@@ -1,72 +1,80 @@
 <template>
-  <div
-    class="bg-[#e5e5e5] flex flex-wrap gap-10 justify-center lg:justify-evenly items-center lg:p-4 lg:h-[80vh] p-10"
-  >
-    <div class="pt-6 lg:pt-0 w-96 lg:w-[30em]">
-      <p class="text-sm lg:text-lg font-medium uppercase pb-2">
-        printing & branding services
-      </p>
-      <h1 class="font-bold text-gray-800 lg:text-6xl text-4xl">
-        The leader in <br />quality custom
-      </h1>
-
-      <p class="text-md font-regular text-gray-800 pt-6">
-        Greetings from Skywork, the leading source for branding and printing
-        services in Mombasa. Whether you need digital printing, corporate
-        branding, or bespoke printing, we specialize in a broad range of
-        tailored printing and branding solutions.
-      </p>
-
-      <button
-        class="bg-white text-gray-800 font-semibold py-4 px-6 rounded-full mt-10 w-44 p-4 cursor-pointer hover:bg-[#5cc6d0] transition duration-300"
+  <div class="relative w-full mx-auto overflow-hidden">
+    <!-- Slides wrapper -->
+    <div
+      class="flex transition-transform duration-700 ease-in-out"
+      :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
+    >
+      <div
+        v-for="(slide, index) in slides"
+        :key="index"
+        class="w-full flex-shrink-0 h-[60vh] sm:h-[70vh] lg:h-[85vh] bg-center bg-cover"
+        :style="{ backgroundImage: `url(${slide.image})` }"
       >
-        Contact Us
-      </button>
-    </div>
-
-    <main>
-      <div class="relative z-0 w-64 lg:w-96 overflow-hidden">
-        <!-- Images wrapper -->
         <div
-          class="flex transition-transform duration-700 ease-in-out"
-          :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
+          class="h-full w-full bg-black/40 bg-opacity-50 flex flex-col justify-center items-center text-center text-white px-4"
         >
-          <div
-            v-for="(image, index) in images"
-            :key="index"
-            class="w-full flex-shrink-0 flex justify-center items-center"
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+            {{ slide.title }}
+          </h2>
+          <p class="text-lg sm:text-lg lg:text-xl mb-6 max-w-2xl">
+            {{ slide.description }}
+          </p>
+          <a
+            :href="slide.buttonLink"
+            class="bg-[#5cc6d0] hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
           >
-            <img
-              :src="image"
-              class="w-64 lg:w-full sm:h-80 md:h-68 lg:h-[400px] object-cover"
-            />
-          </div>
-        </div>
-
-        <!-- Navigation dots -->
-        <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
-          <button
-            v-for="(image, index) in images"
-            :key="index"
-            @click="currentIndex = index"
-            :class="[
-              'w-3 h-3 rounded-full',
-              currentIndex === index ? 'bg-white' : 'bg-gray-400',
-            ]"
-          ></button>
+            {{ slide.buttonText }}
+          </a>
         </div>
       </div>
-    </main>
+    </div>
+
+    <!-- Navigation dots -->
+    <div class="absolute bottom-5 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+      <button
+        v-for="(slide, index) in slides"
+        :key="index"
+        @click="currentIndex = index"
+        :class="[
+          'w-3 h-3 rounded-full',
+          currentIndex === index ? 'bg-white' : 'bg-gray-400',
+        ]"
+      ></button>
+    </div>
   </div>
 </template>
 
 <script setup>
-const images = [
-  "/images/machine1.jpeg",
-  "/images/machine2.jpeg",
-  "/images/machine3.jpeg",
-  "/images/machine4.jpeg",
-  "/images/machine5.jpeg",
+const slides = [
+  {
+    image: "/images/machine1.jpeg",
+    title: "Logo Printing",
+    description: "Professional logo printing services for your business.",
+    buttonText: "Contact Us",
+    buttonLink: "/",
+  },
+  {
+    image: "/images/machine2.jpeg",
+    title: "Large paper Printing",
+    description: "We offer high-quality large format printing services for all your needs.",
+    buttonText: "Contact Us",
+    buttonLink: "/",
+  },
+  {
+    image: "/images/machine3.jpeg",
+    title: "Labels & Stickers",
+    description: "Custom labels and stickers for branding and promotions.",
+    buttonText: "Contact Us",
+    buttonLink: "/",
+  },
+  {
+    image: "/images/machine4.jpeg",
+    title: "T-shirts & Bags Printing",
+    description: "Custom printed t-shirts and bags for your business or event.",
+    buttonText: "Contact Us",
+    buttonLink: "/",
+  },
 ];
 
 const currentIndex = ref(0);
@@ -74,7 +82,7 @@ let interval;
 
 onMounted(() => {
   interval = setInterval(() => {
-    currentIndex.value = (currentIndex.value + 1) % images.length;
+    currentIndex.value = (currentIndex.value + 1) % slides.length;
   }, 3000); // change slide every 3s
 });
 

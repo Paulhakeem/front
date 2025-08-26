@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#f6f7fb] lg:px-10">
     <div
-      class="flex flex-wrap justify-evenly place-content-center items-center space-y-12 p-10"
+      class="flex flex-wrap justify-evenly place-content-center items-center gap-10 p-10"
     >
       <div
         v-for="(item, index) in services"
