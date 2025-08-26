@@ -22,7 +22,7 @@
           </p>
           <a
             :href="slide.buttonLink"
-            class="bg-[#5cc6d0] hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
+            class="bg-[#5cc6d0] text-white font-semibold py-2 px-4 rounded"
           >
             {{ slide.buttonText }}
           </a>

@@ -21,7 +21,6 @@
 
 <script setup>
 const services = [
-  { title: "Business Cards", src: "/images/businesscard.jpg" },
   { title: "Marketing Materials", src: "/images/bronchure.jpg" },
   { title: "Signs & Posters", src: "/images/banners.jpg" },
   { title: "T-shirts & Bags Printing", src: "/images/t-shirt.png" },
