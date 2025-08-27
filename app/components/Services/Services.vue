@@ -27,14 +27,14 @@
           <div
             v-for="(service, index) in item.type"
             :key="index"
-            class="flex items-center mt-3 gap-2 items-center"
+            class="flex items-center mt-3 gap-2"
           >
             <Icon
               :name="service.icon"
               class="text-[#5cc6d0] text-lg"
             />
             <p
-              class="mt-2 text-gray-500 group-hover:text-gray-600 dark:text-gray-400"
+              class="text-gray-500 group-hover:text-gray-600 dark:text-gray-400"
             >
               {{ service.name }}
             </p>
@@ -68,12 +68,16 @@ const services = [
       },
       {
         icon: "lets-icons:check-ring",
-        name: "Packaging Materials",
+        name: "Custom T-Shirts & Merchandise",
       },
       {
         icon: "lets-icons:check-ring",
         name: "Event Printing (Invitations, Tickets, Badges)",
       },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Large Format Printing (Wall Murals, Vehicle Wraps etc)",
+      }
     ],
   },
   {

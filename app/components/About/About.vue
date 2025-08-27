@@ -7,7 +7,7 @@
         <div class="ms-4">
           <img
             class="w-full rounded-md"
-            src="/images/machine5.jpeg"
+            src="/images/machine.jpg"
             alt="printing machine"
           />
         </div>

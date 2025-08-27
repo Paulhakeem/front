@@ -95,7 +95,7 @@
         <div class="ms-4">
           <img
             class="w-full rounded-md object-cover"
-            src="/images/machine4.jpeg"
+            src="/images/printer.jpg"
             alt="printing machine"
         />
         </div>

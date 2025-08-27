@@ -22,7 +22,7 @@
           </p>
           <a
             :href="slide.buttonLink"
-            class="bg-[#5cc6d0] text-white font-semibold py-2 px-4 rounded"
+            class="bg-[#5cc6d0] hover:border-2 hover:border-[#5cc6d0] hover:text-[#5cc6d0] text-white font-semibold py-2 px-4 rounded"
           >
             {{ slide.buttonText }}
           </a>
@@ -48,28 +48,28 @@
 <script setup>
 const slides = [
   {
-    image: "/images/machine1.jpeg",
+    image: "/images/logo2.jpg",
     title: "Logo Printing",
     description: "Professional logo printing services for your business.",
     buttonText: "Contact Us",
     buttonLink: "/",
   },
   {
-    image: "/images/machine2.jpeg",
+    image: "/images/large_format_printer.jpg",
     title: "Large paper Printing",
     description: "We offer high-quality large format printing services for all your needs.",
     buttonText: "Contact Us",
     buttonLink: "/",
   },
   {
-    image: "/images/machine3.jpeg",
+    image: "/images/label_printer.jpeg",
     title: "Labels & Stickers",
     description: "Custom labels and stickers for branding and promotions.",
     buttonText: "Contact Us",
     buttonLink: "/",
   },
   {
-    image: "/images/machine4.jpeg",
+    image: "/images/t-shirt_printer.jpg",
     title: "T-shirts & Bags Printing",
     description: "Custom printed t-shirts and bags for your business or event.",
     buttonText: "Contact Us",
