@@ -1,31 +1,158 @@
 <template>
-  <div class="bg-[#f6f7fb] lg:px-10">
-    <div
-      class="flex flex-wrap justify-evenly place-content-center items-center gap-10 p-10"
-    >
-      <div
-        v-for="(item, index) in services"
-        :key="index"
-        class="bg-[#ffffff] p-4 size-70 rounded-md"
-      >
-        <h4 class="text-md font-semibold text-gray-800 uppercase">
-          {{ item.title }}
-        </h4>
-        <div>
-          <img :src="item.src" alt="" class="w-64 mt-2">
-        </div>
+  <main class="bg-[#f6f7fb]">
+    <!-- Card Blog -->
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <!-- Title -->
+      <div class="max-w-2xl mb-10">
+        <h2
+          class="text-lg font-bold text-gray-800 md:text-3xl md:leading-tight dark:text-white"
+        >
+          Our Services
+        </h2>
       </div>
+      <!-- End Title -->
+
+      <!-- Grid -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
+        <!-- Card -->
+        <div
+          v-for="(item, index) in services"
+          :key="index"
+          class="group block bg-white w-80 h-auto p-4 rounded-xl shadow-md hover:shadow-lg transition"
+        >
+          <Icon :name="item.icon" class="text-4xl text-[#5cc6d0] mb-4" />
+          <h2 class="text-gray-800 text-md font-semibold">
+            {{ item.title }}
+          </h2>
+          <div
+            v-for="(service, index) in item.type"
+            :key="index"
+            class="flex items-center mt-3 gap-2 items-center"
+          >
+            <Icon
+              :name="service.icon"
+              class="text-[#5cc6d0] text-lg"
+            />
+            <p
+              class="mt-2 text-gray-500 group-hover:text-gray-600 dark:text-gray-400"
+            >
+              {{ service.name }}
+            </p>
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+      <!-- End Grid -->
     </div>
-  </div>
+    <!-- End Card Blog -->
+  </main>
 </template>
 
 <script setup>
 const services = [
-  { title: "Marketing Materials", src: "/images/bronchure.jpg" },
-  { title: "Signs & Posters", src: "/images/banners.jpg" },
-  { title: "T-shirts & Bags Printing", src: "/images/t-shirt.png" },
-  { title: "Large paper Printing", src: "/images/large.jpg" },
-  { title: "Invitation & Stationery", src: "/images/invitation.jpg" },
-  { title: "Labels & Stickers", src: "/images/7.png" },
+  {
+    title: "Printing Services",
+    icon: "material-symbols:print",
+    type: [
+      {
+        icon: "lets-icons:check-ring",
+        name: "Business Cards, Flyers & Brochures",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Posters, Banners & Hoardings",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Product Labels & Stickers",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Packaging Materials",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Event Printing (Invitations, Tickets, Badges)",
+      },
+    ],
+  },
+  {
+    title: "Designing Services",
+    icon: "iconoir:design-nib-solid",
+    type: [
+      {
+        icon: "lets-icons:check-ring",
+        name: "Logo Design & Brand Identity",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Shop Board & Signage Design",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Product & Packaging Design",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Social Media Graphics & Digital Ads",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Custom Illustrations & Creative Artwork",
+      },
+    ],
+  },
+  {
+    title: "Branding Solutions for Shop Owners",
+    icon: "material-symbols:store-rounded",
+    type: [
+      {
+        icon: "lets-icons:check-ring",
+        name: "Shop Front Signboards & Glow Signs",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "In-Store Branding (Wall Graphics, Posters, Standees)",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Window & Glass Branding",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Staff Uniform Branding (T-Shirts, Caps, Aprons)",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Vehicle Branding (Vinyl Wraps & Stickers)",
+      },
+    ],
+  },
+  {
+    title: "Website Desing & Development",
+    icon: "streamline-ultimate:coding-apps-website-network-globe",
+    type: [
+      {
+        icon: "lets-icons:check-ring",
+        name: "Custom Website Design",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "E-commerce Development",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Responsive Web Design",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Content Management Systems (CMS)",
+      },
+      {
+        icon: "lets-icons:check-ring",
+        name: "Website Maintenance & Support",
+      },
+    ],
+  },
 ];
 </script>
