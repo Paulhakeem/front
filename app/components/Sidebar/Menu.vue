@@ -35,7 +35,7 @@ const menu = ref([
   { name: "Home", path: "/" },
   { name: "About", path: "/" },
   { name: "Services", path: "/" },
-  { name: "Videos", path: "/" },
+  { name: "Videos", path: "/Videos" },
   { name: "Contact", path: "/" },
 ]);
 </script>
