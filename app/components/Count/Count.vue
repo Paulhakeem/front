@@ -1,15 +1,15 @@
 <template>
   <!-- Features -->
-  <main class="bg-[#f6f7fb]">
+  <main class="bg-[#f6f7fb] pt-10 lg:pt-20">
     <div
       class="max-w-[85rem] px-4 py-5 sm:px-6 lg:px-8 lg:py-14 mx-auto justify-center"
     >
       <!-- Grid -->
       <div
-        class="grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8 justify-items-center"
+        class="grid gap-6 grid-cols-2 sm:gap-12 md:grid-cols-3 lg:grid-cols-3 lg:gap-8 justify-items-center"
       >
         <!-- Stats -->
-        <div v-for="(stat, index) in stats" :key="index">
+        <div data-aos="fade-up" v-for="(stat, index) in stats" :key="index">
           <h4
             class="text-lg sm:text-xl font-semibold text-gray-800 dark:text-neutral-200"
           >

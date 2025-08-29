@@ -5,12 +5,12 @@
       <!-- Grid -->
       <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         <div>
-          <h1 class="block text-2xl font-bold text-gray-800 lg:text-4xl">
+          <h1 data-aos="fade-up" class="block text-2xl font-bold text-gray-800 lg:text-4xl">
             Reason to get
             <span class="text-[#5cc6d0]">printing & branding</span> starting
             with us
           </h1>
-          <p class="mt-3 text-md text-gray-800 dark:text-neutral-400 lg:text-lg">
+          <p data-aos="fade-up" class="mt-3 text-md text-gray-800 dark:text-neutral-400 lg:text-lg">
             Our dedicated staff makes it easy for you to create a unique design
             that will impress your clients and make you stand out from the
             crowd. We use the latest technology and highest quality materials to
@@ -21,7 +21,7 @@
           <div class="mt-6 lg:mt-10 grid grid-cols-2 gap-x-5">
             <!-- Review -->
             <div class="py-5">
-              <div class="flex gap-x-1">
+              <div data-aos="fade-up" class="flex gap-x-1">
                 <Icon
                   name="tabler:star-filled"
                   class="size-10 text-[#5cc6d0]"
@@ -44,11 +44,11 @@
                 />
               </div>
 
-              <p class="mt-3 text-sm text-gray-800 dark:text-neutral-200">
+              <p data-aos="fade-up" class="mt-3 text-sm text-gray-800 dark:text-neutral-200">
                 <span class="font-bold">4.8</span> /5 - from 1k reviews
               </p>
 
-              <div class="mt-5">
+              <div data-aos="fade-up" class="mt-5">
                 <!-- Star -->
                 <svg
                   class="h-auto w-16 text-gray-800 dark:text-white"
@@ -92,7 +92,7 @@
         </div>
         <!-- End Col -->
 
-        <div class="ms-4">
+        <div data-aos="fade-up" class="ms-4">
           <img
             class="w-full rounded-md object-cover"
             src="/images/printer.jpg"

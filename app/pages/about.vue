@@ -24,10 +24,10 @@
         class="items-center grid md:grid-cols-2 gap-4 p-2 md:gap-8 xl:gap-20 md:items-center"
       >
         <div>
-          <h2 class="text-2xl font-bold text-gray-800 md:text-3xl mb-6">
+          <h2 data-aos="fade-up" class="text-2xl font-bold text-gray-800 md:text-3xl mb-6">
             Who We Are
           </h2>
-          <p
+          <p data-aos="fade-up"
             class="leading-relaxed mt-3 text-md text-gray-800 dark:text-neutral-400 lg:text-lg"
           >
             At Skywork, we help shop owners turn their ideas into eye-catching
@@ -42,7 +42,7 @@
             and create lasting value.
           </p>
         </div>
-        <div class="">
+        <div data-aos="fade-up">
           <img
             class="w-full rounded-md"
             src="/images/large.jpg"
@@ -56,21 +56,21 @@
       <div
         class="items-center grid md:grid-cols-2 gap-4 p-2 md:gap-8 xl:gap-20 md:items-center"
       >
-        <div class="bg-[#5cc6d0] p-6 rounded-md text-white">
-          <h2 class="text-xl font-bold text-gray-800 md:text-3xl mb-6">
+        <div data-aos="fade-up" class="bg-[#5cc6d0] p-6 rounded-md text-white">
+          <h2 data-aos="fade-up" class="text-xl font-bold text-gray-800 md:text-3xl mb-6">
             Our Mission
           </h2>
-          <p class="text-gray-800 leading-relaxed">
+          <p data-aos="fade-up" class="text-gray-800 leading-relaxed">
             Empowering Small Shops with Big Ideas through Exceptional Design and
             Printing Solutions.
           </p>
         </div>
 
-        <div class="bg-[#5cc6d0] p-6 rounded-md text-gray-800">
-          <h2 class="text-xl font-bold text-gray-800 md:text-3xl mb-6">
+        <div data-aos="fade-up" class="bg-[#5cc6d0] p-6 rounded-md text-gray-800">
+          <h2 data-aos="fade-up" class="text-xl font-bold text-gray-800 md:text-3xl mb-6">
             Our Vison
           </h2>
-          <p class="text-gray-800 leading-relaxed">
+          <p data-aos="fade-up" class="text-gray-800 leading-relaxed">
             Turning Small Shops Into Big Brands with Creativity and Innovation.
           </p>
         </div>

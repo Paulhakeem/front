@@ -1,6 +1,6 @@
 <template>
   <main class="bg-gray-800">
-    <div class="flex p-4 lg:hidden">
+    <div class="flex p-4 md:hidden lg:hidden">
       <div class="flex justify-between items-center w-full">
         <Icon
           class="cursor-pointer left-2 top-2 text-gray-200"
@@ -37,7 +37,7 @@
         </nav>
       </div>
     </div>
-    <div class="hidden lg:block">
+    <div class="hidden md:block lg:block">
       <SidebarMenu />
     </div>
   </main>

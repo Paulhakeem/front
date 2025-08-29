@@ -10,12 +10,12 @@
         >
           <!-- Icon + Title -->
           <div class="flex items-center gap-x-4 mb-4">
-            <div
+            <div data-aos="fade-up"
               class="flex justify-center items-center w-14 h-14 rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800"
             >
-              <Icon :name="item.icon" class="text-2xl text-[#5cc6d0]" />
+              <Icon data-aos="fade-up" :name="item.icon" class="text-2xl text-[#5cc6d0]" />
             </div>
-            <h3
+            <h3  data-aos="fade-up"
               class="text-lg font-semibold text-gray-800 dark:text-white leading-snug"
             >
               {{ item.title }}
@@ -23,7 +23,7 @@
           </div>
 
           <!-- Description -->
-          <p class="text-gray-600 dark:text-neutral-400 leading-relaxed flex-1">
+          <p data-aos="fade-up" class="text-gray-600 dark:text-neutral-400 leading-relaxed flex-1">
             {{ item.description }}
           </p>
         </div>
