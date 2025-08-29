@@ -19,7 +19,7 @@
     </section>
 
     <!-- About Content -->
-    <section class="max-w-5xl mx-auto px-4 py-12 md:py-20">
+    <section class="max-w-5xl mx-auto px-4 py-6 md:py-20">
       <div
         class="items-center grid md:grid-cols-2 gap-4 p-2 md:gap-8 xl:gap-20 md:items-center"
       >
@@ -51,17 +51,32 @@
         </div>
       </div>
     </section>
-    <h2 class="text-2xl font-bold text-gray-800 md:text-3xl mt-12 mb-6">
-      Our Mission
-    </h2>
-    <p class="text-gray-600 leading-relaxed">
-      To empower our clients with exceptional services in design, printing,
-      marketing, and digital solutions — helping them connect with their
-      audience in meaningful ways.
-    </p>
+
+    <div class="max-w-5xl mx-auto px-4 py-6">
+      <div
+        class="items-center grid md:grid-cols-2 gap-4 p-2 md:gap-8 xl:gap-20 md:items-center"
+      >
+        <div class="bg-[#5cc6d0] p-6 rounded-md text-white">
+          <h2 class="text-xl font-bold text-gray-800 md:text-3xl mb-6">
+            Our Mission
+          </h2>
+          <p class="text-gray-800 leading-relaxed">
+            Empowering Small Shops with Big Ideas through Exceptional Design and
+            Printing Solutions.
+          </p>
+        </div>
+
+        <div class="bg-[#5cc6d0] p-6 rounded-md text-gray-800">
+          <h2 class="text-xl font-bold text-gray-800 md:text-3xl mb-6">
+            Our Vison
+          </h2>
+          <p class="text-gray-800 leading-relaxed">
+            Turning Small Shops Into Big Brands with Creativity and Innovation.
+          </p>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
 <script setup></script>
-
-<style lang="scss" scoped></style>
