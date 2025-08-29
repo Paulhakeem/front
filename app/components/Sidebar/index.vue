@@ -25,13 +25,13 @@
         <nav>
           <ul class="space-y-6">
             <li v-for="(item, index) in sideMenu" :key="index">
-              <a
-                :href="item.path"
+              <NuxtLink
+                :to="item.path"
                 class="text-gray-800 hover:border-b hover:border-b-[#d8f3f4] text-sm font-medium tracking-wide uppercase"
                 @click="toggleMenu"
               >
                 {{ item.name }}
-              </a>
+              </NuxtLink>
             </li>
           </ul>
         </nav>
@@ -47,8 +47,8 @@
 const sideMenu = ref([
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
-  { name: "Services", path: "/services" },
-  { name: "Videos", path: "/" },
+  { name: "Services", path: "/" },
+  { name: "Videos", path: "/videos" },
   { name: "Contact", path: "/contact" },
 ]);
 
