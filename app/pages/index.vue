@@ -7,6 +7,7 @@
       <Services />
       <section>
         <Reasons />
+        <Count />
         <About />
       </section>
       <Whatsapp />

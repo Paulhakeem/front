@@ -42,7 +42,7 @@
                 class="text-2xl mr-1 text-[#5cc6d0]"
               />
               <span class="text-gray-800"
-                >123 Printing St, Print City, PC 12345</span
+                >Mombasa, Tononoka Opp. Noble Ballroom HallWajir RD. Moons</span
               >
             </p>
           </div>
