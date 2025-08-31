@@ -3,7 +3,7 @@
     <section class="relative overflow-hidden">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div class="grid lg:grid-cols-2 gap-8 items-center">
-          <div>
+          <div data-aos="fade-up">
             <p
               class="inline-flex items-center gap-2 rounded-full bg-[#d8f3f4] px-3 py-1 text-xs font-medium text-gray-700"
             >
@@ -38,22 +38,22 @@
             <div
               class="aspect-[4/3] w-full rounded-3xl bg-white shadow-md ring-1 ring-gray-100 p-4 grid grid-cols-2 gap-4"
             >
-              <div
+              <div data-aos="fade-up"
                 class="rounded-2xl bg-gray-100 flex items-center justify-center text-sm"
               >
                 Banners
               </div>
-              <div
+              <div data-aos="fade-up"
                 class="rounded-2xl bg-gray-100 flex items-center justify-center text-sm"
               >
                 Business Cards
               </div>
-              <div
+              <div data-aos="fade-up"
                 class="rounded-2xl bg-gray-100 flex items-center justify-center text-sm"
               >
                 T-Shirts
               </div>
-              <div
+              <div data-aos="fade-up"
                 class="rounded-2xl bg-gray-100 flex items-center justify-center text-sm"
               >
                 Stickers

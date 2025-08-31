@@ -50,6 +50,7 @@
           <article
             v-for="item in paginated"
             :key="item.slug"
+            data-aos="fade-up"
             class="group rounded-3xl border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow"
           >
             <div
