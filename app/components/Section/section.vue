@@ -202,7 +202,7 @@ const catalog = [
     desc: "Printed boxes, sleeves, and pouches for products.",
     priceFrom: "KSh 12,000",
     tags: ["Boxes", "Sleeves", "Food"],
-    image: "/images/services/packaging.jpg",
+    image: "/images/services/boxes.jpg",
   },
   {
     title: "Event Branding",
@@ -211,7 +211,7 @@ const catalog = [
     desc: "Stage backdrops, wristbands, lanyards, and passes.",
     priceFrom: "KSh 8,000",
     tags: ["Backdrop", "Badges", "Exhibitions"],
-    image: "/images/services/events.jpg",
+    image: "/images/services/event.jpg",
   },
 ];
 
