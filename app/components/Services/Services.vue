@@ -13,7 +13,7 @@
       <!-- End Title -->
 
       <!-- Grid -->
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-center">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 justify-center">
         <!-- Card -->
         <div
           v-for="(item, index) in services"
