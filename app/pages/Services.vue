@@ -19,7 +19,10 @@
     <div>
       <about-page />
     </div>
+    <Section/>
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
