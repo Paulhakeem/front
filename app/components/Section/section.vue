@@ -157,7 +157,7 @@ const catalog = [
     desc: "Die-cut stickers, product labels, waterproof options.",
     priceFrom: "KSh 800",
     tags: ["Die-cut", "Waterproof", "Packaging"],
-    image: "/images/services/stickers.jpg",
+    image: "/images/services/sticker.jpg",
   },
   {
     title: "T-Shirt Printing",
@@ -166,7 +166,7 @@ const catalog = [
     desc: "DTF, screen print or embroidery for uniforms & promos.",
     priceFrom: "KSh 900",
     tags: ["DTF", "Embroidery", "Screen"],
-    image: "/images/services/tshirts.jpg",
+    image: "/images/services/tshirt.jpeg",
   },
   {
     title: "Mugs & Drinkware",
@@ -175,7 +175,7 @@ const catalog = [
     desc: "Photo mugs, travel tumblers, branded bottles.",
     priceFrom: "KSh 700",
     tags: ["Sublimation", "Gift", "Corporate"],
-    image: "/images/services/mugs.jpg",
+    image: "/images/services/bottles.jpg",
   },
   {
     title: "Logo & Brand Identity",
@@ -184,7 +184,7 @@ const catalog = [
     desc: "Logo design, brand guide, typography & colors.",
     priceFrom: "KSh 15,000",
     tags: ["Logo", "Brand Guide", "Stationery"],
-    image: "/images/services/branding.jpg",
+    image: "/images/services/logo.jpg",
   },
   {
     title: "Vehicle Branding",
@@ -193,7 +193,7 @@ const catalog = [
     desc: "Full/partial wraps, decals, and magnetic signs.",
     priceFrom: "KSh 25,000",
     tags: ["Wrap", "Decals", "Fleet"],
-    image: "/images/services/vehicle.jpg",
+    image: "/images/services/car.png",
   },
   {
     title: "Custom Packaging",
