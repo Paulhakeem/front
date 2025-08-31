@@ -13,19 +13,8 @@
     </ul>
 
     <!-- Center icon -->
-    <div class="flex justify-center flex-1">
+    <div class="flex justify-end flex-1">
       <img src="/images/logo.png" alt="logo" class="h-14" />
-    </div>
-
-    <!-- Right side (placeholder for profile/login/etc) -->
-    <div class="flex justify-end items-center">
-      <div>
-        <input
-          type="text"
-          placeholder="Search for product"
-          class="text-gray-200 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#d8f3f4]"
-        />
-      </div>
     </div>
   </nav>
 </template>

@@ -14,6 +14,12 @@
         <div
           class="h-full w-full bg-black/40 bg-opacity-50 flex flex-col justify-center items-center text-center text-white px-4"
         >
+          <img
+            v-if="slide.src"
+            :src="slide.src"
+            alt="logo"
+            class="mb-4 size-32 md:size-52 object-contain"
+          />
           <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             {{ slide.title }}
           </h2>
@@ -49,6 +55,7 @@
 const slides = [
   {
     image: "/images/logo2.jpg",
+    src: "/images/logo.png",
     title: "Logo Printing",
     description: "Professional logo printing services for your business.",
     buttonText: "Contact Us",
@@ -56,13 +63,16 @@ const slides = [
   },
   {
     image: "/images/large_format_printer.jpg",
+    src: "/images/logo.png",
     title: "Large paper Printing",
-    description: "We offer high-quality large format printing services for all your needs.",
+    description:
+      "We offer high-quality large format printing services for all your needs.",
     buttonText: "Contact Us",
     buttonLink: "/",
   },
   {
     image: "/images/label_printer.jpeg",
+    src: "/images/logo.png",
     title: "Labels & Stickers",
     description: "Custom labels and stickers for branding and promotions.",
     buttonText: "Contact Us",
@@ -70,6 +80,7 @@ const slides = [
   },
   {
     image: "/images/t-shirt_printer.jpg",
+    src: "/images/logo.png",
     title: "T-shirts & Bags Printing",
     description: "Custom printed t-shirts and bags for your business or event.",
     buttonText: "Contact Us",
