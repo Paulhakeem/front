@@ -130,7 +130,7 @@ const catalog = [
     desc: "Premium cards with matte, gloss, or textured finishes.",
     priceFrom: "KSh 1,500",
     tags: ["Matte/Gloss", "Lamination", "Emboss"],
-    image: "/images/services/business-cards.jpg",
+    image: "/images/services/cards.jpeg",
   },
   {
     title: "Flyers & Brochures",
@@ -139,7 +139,7 @@ const catalog = [
     desc: "Single & tri-fold, full-color marketing flyers.",
     priceFrom: "KSh 2,500",
     tags: ["A5/A4", "Tri-fold", "Full Color"],
-    image: "/images/services/flyers.jpg",
+    image: "/images/services/flyers.jpeg",
   },
   {
     title: "Large Format Banners",
@@ -148,7 +148,7 @@ const catalog = [
     desc: "Outdoor vinyl or mesh banners with eyelets.",
     priceFrom: "KSh 1,200 / m²",
     tags: ["Outdoor", "Roll-up", "Mesh"],
-    image: "/images/services/banners.jpg",
+    image: "/images/services/large.jpeg",
   },
   {
     title: "Stickers & Labels",
