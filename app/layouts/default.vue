@@ -12,6 +12,7 @@
     </div>
     <div class="w-full">
       <slot />
+       <Whatsapp />
     </div>
     <Footer />
   </main>

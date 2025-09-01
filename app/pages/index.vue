@@ -10,7 +10,6 @@
         <Count />
         <About />
       </section>
-      <Whatsapp />
       <Contact />
     </main>
   </div>

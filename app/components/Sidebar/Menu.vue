@@ -25,6 +25,6 @@ const menu = ref([
   { name: "About", path: "/about" },
   { name: "Services", path: "/Services" },
   { name: "Videos", path: "/Videos" },
-  { name: "Contact", path: "/" },
+  { name: "Contact", path: "/contacts" },
 ]);
 </script>
