@@ -30,26 +30,26 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { ref } from "vue"
+<script setup>
 
-const showChat = ref(false)
-const message = ref("")
+const showChat = ref(false);
+const message = ref(
+  "Hello 👋, I'm interested in your printing and branding services. Could you share more details?"
+);
 
-const phoneNumber = "+254719283858" // Replace with your WhatsApp number
+const phoneNumber = "254719283858"; // Replace with your WhatsApp number
 
 function toggleChat() {
-  showChat.value = !showChat.value
+  showChat.value = !showChat.value;
 }
 
 function sendMessage() {
-  if (!message.value) return
+  if (!message.value) return;
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message.value
-  )}`
-  window.open(url, "_blank")
-  message.value = ""
-  showChat.value = false
+  )}`;
+  window.open(url, "_blank");
+  message.value = "";
+  showChat.value = false;
 }
 </script>
-
