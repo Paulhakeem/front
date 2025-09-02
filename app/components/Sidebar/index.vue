@@ -8,7 +8,7 @@
           name="material-symbols:menu"
           @click="toggleMenu"
         />
-        <img src="/images/logo.png" alt="logo" class="h-10" />
+        <NuxtImg src="/images/logo.png" alt="logo" class="h-10" />
       </div>
       <div
         v-if="menu"
