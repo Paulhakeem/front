@@ -59,7 +59,7 @@ const slides = [
     title: "Logo Printing",
     description: "Professional logo printing services for your business.",
     buttonText: "Contact Us",
-    buttonLink: "/",
+    buttonLink: "/contacts",
   },
   {
     image: "/images/large_format_printer.jpg",
@@ -68,7 +68,7 @@ const slides = [
     description:
       "We offer high-quality large format printing services for all your needs.",
     buttonText: "Contact Us",
-    buttonLink: "/",
+    buttonLink: "/contacts",
   },
   {
     image: "/images/label_printer.jpeg",
@@ -76,7 +76,7 @@ const slides = [
     title: "Labels & Stickers",
     description: "Custom labels and stickers for branding and promotions.",
     buttonText: "Contact Us",
-    buttonLink: "/",
+    buttonLink: "/contacts",
   },
   {
     image: "/images/t-shirt_printer.jpg",
@@ -84,7 +84,7 @@ const slides = [
     title: "T-shirts & Bags Printing",
     description: "Custom printed t-shirts and bags for your business or event.",
     buttonText: "Contact Us",
-    buttonLink: "/",
+    buttonLink: "/contacts",
   },
 ];
 

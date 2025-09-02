@@ -42,7 +42,7 @@
         </div>
       </div>
     </section>
-   
+
     <!-- Grid -->
     <section class="py-10">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -86,7 +86,7 @@
             </div>
             <div class="mt-5 flex items-center justify-between">
               <NuxtLink
-                :to="`/services/${item.slug}`"
+                to="/Services"
                 class="text-sm font-semibold text-[#5cc6d0]"
               >
                 View details →
@@ -100,11 +100,10 @@
             </div>
           </article>
         </div>
-
       </div>
     </section>
     <!-- section page -->
-    <section-page/>
+    <section-page />
   </div>
 </template>
 

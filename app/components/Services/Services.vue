@@ -15,7 +15,7 @@
       <!-- Grid -->
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 justify-center">
         <!-- Card -->
-        <div
+        <NuxtLink to="/Services"
           v-for="(item, index) in services"
           :key="index"
           data-aos="fade-up"
@@ -42,7 +42,7 @@
               {{ service.name }}
             </p>
           </div>
-        </div>
+        </NuxtLink>
         <!-- End Card -->
       </div>
       <!-- End Grid -->

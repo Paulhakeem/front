@@ -43,7 +43,7 @@
 
           <button data-aos="fade-up">
             <NuxtLink
-              to="/"
+              to="/about"
               class="inline-block px-5 py-3 mt-6 text-sm font-medium text-[#31b6bb] rounded-lg border-2 border-[#31b6bb] transition"
             >
               Read More
@@ -68,12 +68,12 @@
           </div>
           <div class="flex gap-3">
             <NuxtLink
-              to="/upload"
+              to="/"
               class="rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-100"
               >Upload Artwork</NuxtLink
             >
             <NuxtLink
-              to="/contact"
+              to="/contacts"
               class="rounded-2xl bg-black/20 ring-1 ring-white/30 px-5 py-3 text-sm font-semibold text-white hover:bg-black/30"
               >Talk to us</NuxtLink
             >
