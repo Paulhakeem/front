@@ -14,7 +14,7 @@
         <div
           class="h-full w-full bg-black/40 bg-opacity-50 flex flex-col justify-center items-center text-center text-white px-4"
         >
-          <img
+          <NuxtImg
             v-if="slide.src"
             :src="slide.src"
             alt="logo"

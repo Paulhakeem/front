@@ -56,7 +56,7 @@
             <div
               class="aspect-[16/10] w-full overflow-hidden rounded-2xl bg-gray-100"
             >
-              <img
+              <NuxtImg
                 :src="item.image"
                 :alt="item.title"
                 class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-[1.03]"

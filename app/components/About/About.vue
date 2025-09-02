@@ -7,7 +7,7 @@
         class="grid md:grid-cols-2 gap-4 pt-20 p-2 md:gap-8 xl:gap-20 md:items-center"
       >
         <div data-aos="fade-up" class="ms-4">
-          <img
+          <NuxtImg
             class="w-full rounded-md"
             src="/images/big_machine.jpg"
             alt="printing machine"

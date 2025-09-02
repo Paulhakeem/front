@@ -93,7 +93,7 @@
         <!-- End Col -->
 
         <div data-aos="fade-up" class="ms-4">
-          <img
+          <NuxtImg
             class="w-full rounded-md object-cover"
             src="/images/printer.jpg"
             alt="printing machine"
