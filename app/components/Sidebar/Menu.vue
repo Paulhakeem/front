@@ -14,7 +14,7 @@
 
     <!-- Center icon -->
     <div class="flex justify-end flex-1">
-      <img src="/images/logo.png" alt="logo" class="h-14" />
+      <img src="/logo/logo.png" alt="logo" class="h-14" />
     </div>
   </nav>
 </template>
